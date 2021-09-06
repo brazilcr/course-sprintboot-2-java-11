@@ -1,4 +1,4 @@
-package com.mediaflexcourse;
+package com.mediaflex.course;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
