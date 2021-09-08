@@ -27,6 +27,8 @@ public class UserService {
 		// usar metodo no repository.. save... por padrão retorna o objeto salvo
 		return repository.save(obj);
 	}
-
+	public void delete(Long id) {
+		repository.deleteById(id);
+	}
 }
 
